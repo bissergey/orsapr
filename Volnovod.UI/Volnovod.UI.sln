@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volnovod.UI", "Volnovod.UI.csproj", "{757C0DFF-FC9C-48B2-BCD6-EBE97B978512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasPlugin", "..\KompasPlugin\KompasPlugin.csproj", "{1388FE02-31B4-4D85-A696-AAB8D737BB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasWrapper", "..\KompasWrapper\KompasWrapper.csproj", "{A59810A6-F0E5-4EE2-B9D0-823EC3533C07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{CBDEF3AC-A7B1-4311-914E-5277B5501AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasPluginUnitTests", "..\KompasPluginUnitTests\KompasPluginUnitTests.csproj", "{070C5C4B-CB49-4237-91EC-A11B46C3BEE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{757C0DFF-FC9C-48B2-BCD6-EBE97B978512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757C0DFF-FC9C-48B2-BCD6-EBE97B978512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757C0DFF-FC9C-48B2-BCD6-EBE97B978512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757C0DFF-FC9C-48B2-BCD6-EBE97B978512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1388FE02-31B4-4D85-A696-AAB8D737BB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1388FE02-31B4-4D85-A696-AAB8D737BB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1388FE02-31B4-4D85-A696-AAB8D737BB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1388FE02-31B4-4D85-A696-AAB8D737BB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59810A6-F0E5-4EE2-B9D0-823EC3533C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59810A6-F0E5-4EE2-B9D0-823EC3533C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59810A6-F0E5-4EE2-B9D0-823EC3533C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59810A6-F0E5-4EE2-B9D0-823EC3533C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070C5C4B-CB49-4237-91EC-A11B46C3BEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070C5C4B-CB49-4237-91EC-A11B46C3BEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070C5C4B-CB49-4237-91EC-A11B46C3BEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070C5C4B-CB49-4237-91EC-A11B46C3BEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{070C5C4B-CB49-4237-91EC-A11B46C3BEE3} = {CBDEF3AC-A7B1-4311-914E-5277B5501AB1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13BA1944-4B14-4167-8EAC-9729B300A841}
+	EndGlobalSection
+EndGlobal
